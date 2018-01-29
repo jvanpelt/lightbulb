@@ -1,3 +1,17 @@
 .page-header {
-    background-color: #c00;
+    background: #c00;
+}
+
+.main-content h1, .main-content h2{
+    color: #333;
+}
+
+.main-content h3, .main-content h4, .main-content h5, .main-content h6 {
+    color: #c00;
+}
+
+@media screen and (min-width: 64em){
+    .main-content {
+        font-size: 1.125rem;
+    }
 }
