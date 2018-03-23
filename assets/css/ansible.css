@@ -11,14 +11,32 @@
     background-color: #a2a1a1;
 }
 
-.card{
-    
+.btn {
+    border-radius: 0px;
+    text-align: center;
+    padding: 10px 20px;
 }
 
-.card-body{
+.btn.btn-block {
+    display: block;
+}
+
+.btn.btn-primary,
+.btn.btn-secondary {
+    background-color: #a2a1a1;
+    color: #fff;
     padding: 30px;
 }
 
+.btn.btn-secondary {
+    background-color: #cac8c8;
+}
+
+.btn.btn-ghost{
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+}
 
 
 .page-header {
@@ -53,5 +71,12 @@
     
     .main-content {
         font-size: 1.125rem;
+    }
+}
+
+/* theme override */
+@media screen and (min-width: 64em)
+    .main-content {
+        max-width: none;
     }
 }
