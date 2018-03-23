@@ -1,9 +1,32 @@
+.theme-dark,
+.theme-dark *{
+    color: #fff;
+}
+
+.theme-bg-gray{
+    background-color: #cac8c8;
+}
+
+.theme-bg-darkgray{
+    background-color: #a2a1a1;
+}
+
+.card{
+    
+}
+
+.card-body{
+    padding: 30px;
+}
+
+
+
 .page-header {
     background: #c00;
 }
 
 .page-header h1 {
-    font-size: 24px;
+    font-size: 21px;
     text-transform: uppercase;
     font-weight: 400;
 }
