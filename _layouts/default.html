@@ -31,9 +31,11 @@
     </section>
 
       <footer class="site-footer">
-        {% if site.github.is_project_page %}
-          <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
-        {% endif %}
+        <div class="container">
+          <p>Red Hat, the Shadowman logo, Ansible, and Ansible Tower are trademarks or registered trademarks of Red Hat, Inc. or its subsidiaries in the United States and other countries.</p>
+            
+          <p>All other parts of Ansible Lightbulb are made available under the terms of the MIT License</p>
+        </div>
       </footer>
 
     {% if site.google_analytics %}
