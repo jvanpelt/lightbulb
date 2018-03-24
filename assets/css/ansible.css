@@ -80,3 +80,17 @@
         max-width: none;
     }
 }
+
+@media screen and (max-width: 64em) and (min-width: 42em){
+    .main-content {
+        padding: 2rem 0px;
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 42em){
+    .main-content {
+        padding: 2rem 0px;
+        font-size: 1rem;
+    }
+}
